@@ -19,6 +19,12 @@ public class RoundController {
         return "/addround";
     }
 
+    @RequestMapping(value = "wishlist", method = RequestMethod.GET)
+    public String displayAddToWishList(Model model) {
+        return "/courses-wish-list";
+    }
+
+
     //@RequestMapping(value = "add", method = RequestMethod.POST)
     //public String processAddRoundForm
 
